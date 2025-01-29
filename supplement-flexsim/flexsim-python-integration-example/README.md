@@ -21,3 +21,15 @@ The 'FlexSimPy.py' file with the 'assign_output' function definition is placed i
 # How to test
 
 Open 'source_output.txt' in an editor and run the simulation. While the simulation is running, try changing the output port number and save the file. Parcels in the simulation should immediately be redirected to the new destination.
+
+# Troubleshooting
+
+If the simulation throws an error or crashes, make sure you have the correct Python version installed and available in your system path.
+
+Check required Python version in FlexSim (File -> Global Preferences -> Code). Then verify Python version installed in your system, by opening command prompt and executing
+
+```
+python --version
+```
+
+It should be compatible with the one configured in FlexSim.
